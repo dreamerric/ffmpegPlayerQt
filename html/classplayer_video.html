@@ -1,0 +1,1002 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>myPlayer: playerVideo类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">myPlayer
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pri-attribs">Private 属性</a> &#124;
+<a href="classplayer_video-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">playerVideo类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>视频类  
+ <a href="classplayer_video.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="player_video_8h_source.html">playerVideo.h</a>&gt;</code></p>
+
+<p>继承自 QThread .</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:ac37ac2cb7c50e47ba3d63aaa4f496c1e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#ac37ac2cb7c50e47ba3d63aaa4f496c1e">playerVideo</a> ()</td></tr>
+<tr class="separator:ac37ac2cb7c50e47ba3d63aaa4f496c1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada6ca11f0f622af94227b00fe910f369"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#ada6ca11f0f622af94227b00fe910f369">run</a> ()</td></tr>
+<tr class="memdesc:ada6ca11f0f622af94227b00fe910f369"><td class="mdescLeft">&#160;</td><td class="mdescRight">视频解封装线程  <a href="#ada6ca11f0f622af94227b00fe910f369">更多...</a><br /></td></tr>
+<tr class="separator:ada6ca11f0f622af94227b00fe910f369"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbe11582b7ceb00e212b6f8dfd69abab"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#acbe11582b7ceb00e212b6f8dfd69abab">synchronizeVideo</a> (AVFrame *&amp;srcFrame, double &amp;pts)</td></tr>
+<tr class="memdesc:acbe11582b7ceb00e212b6f8dfd69abab"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置当前视频流videoClock  <a href="#acbe11582b7ceb00e212b6f8dfd69abab">更多...</a><br /></td></tr>
+<tr class="separator:acbe11582b7ceb00e212b6f8dfd69abab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a1f2e5636f1482c5d378f7f862fd597"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a7a1f2e5636f1482c5d378f7f862fd597">setStreamIndex</a> (const int &amp;<a class="el" href="classplayer_video.html#aef118197280a9ebe42bb4249d27159d6">streamIndex</a>)</td></tr>
+<tr class="separator:a7a1f2e5636f1482c5d378f7f862fd597"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdd838f023381a0a21ce88132e1c5b6e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#afdd838f023381a0a21ce88132e1c5b6e">getStreamIndex</a> ()</td></tr>
+<tr class="separator:afdd838f023381a0a21ce88132e1c5b6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27c54136942b3111dcb0e19c09e07e8b"><td class="memItemLeft" align="right" valign="top">AVStream *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a27c54136942b3111dcb0e19c09e07e8b">getVideoStream</a> ()</td></tr>
+<tr class="separator:a27c54136942b3111dcb0e19c09e07e8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace5d7671f4ae61f69e622e299febabb3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#ace5d7671f4ae61f69e622e299febabb3">setVideoStream</a> (AVStream *&amp;<a class="el" href="classplayer_video.html#ad3bcf8c337e9dc98e96c151db1bd2187">stream</a>)</td></tr>
+<tr class="separator:ace5d7671f4ae61f69e622e299febabb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8135f5b99f82a34929761b0be7f9151"><td class="memItemLeft" align="right" valign="top">AVCodecContext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#ad8135f5b99f82a34929761b0be7f9151">getAVCodecContext</a> ()</td></tr>
+<tr class="separator:ad8135f5b99f82a34929761b0be7f9151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5112f20de13024c1c7ab273dffbc619a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a5112f20de13024c1c7ab273dffbc619a">setAVCodecContext</a> (AVCodecContext *<a class="el" href="classplayer_video.html#a76157083e0873fd0740caf850676332e">videoContext</a>)</td></tr>
+<tr class="separator:a5112f20de13024c1c7ab273dffbc619a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c7c30bb38e521136414764211a0959e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a8c7c30bb38e521136414764211a0959e">getVideoQueueSize</a> ()</td></tr>
+<tr class="separator:a8c7c30bb38e521136414764211a0959e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c14f3e5c200d6e03829068443c85665"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a9c14f3e5c200d6e03829068443c85665">enqueuePacket</a> (const AVPacket packet)</td></tr>
+<tr class="separator:a9c14f3e5c200d6e03829068443c85665"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2834ff79aaea9f58fee753c2c150272b"><td class="memItemLeft" align="right" valign="top">AVFrame *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a2834ff79aaea9f58fee753c2c150272b">dequeueFrame</a> ()</td></tr>
+<tr class="separator:a2834ff79aaea9f58fee753c2c150272b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57259bf6f977d96a0d11559c9b4e783f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a57259bf6f977d96a0d11559c9b4e783f">getVideoFrameSize</a> ()</td></tr>
+<tr class="separator:a57259bf6f977d96a0d11559c9b4e783f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cb9a9dff62dce19f792e25673e540dc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a8cb9a9dff62dce19f792e25673e540dc">setFrameTimer</a> (const double &amp;<a class="el" href="classplayer_video.html#a762da60894657dfba150523f3f950399">frameTimer</a>)</td></tr>
+<tr class="separator:a8cb9a9dff62dce19f792e25673e540dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7f279557b9e7bd99b9f496b89fa5ce1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#ae7f279557b9e7bd99b9f496b89fa5ce1">getFrameTimer</a> ()</td></tr>
+<tr class="separator:ae7f279557b9e7bd99b9f496b89fa5ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8402f263cb15bde4a44941ca0744c24"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#aa8402f263cb15bde4a44941ca0744c24">setFrameLastPts</a> (const double &amp;<a class="el" href="classplayer_video.html#a197be3907f910cab451f8dc6add4ae94">frameLastPts</a>)</td></tr>
+<tr class="memdesc:aa8402f263cb15bde4a44941ca0744c24"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置上一帧的播放时间  <a href="#aa8402f263cb15bde4a44941ca0744c24">更多...</a><br /></td></tr>
+<tr class="separator:aa8402f263cb15bde4a44941ca0744c24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1624104969585e1fb419ebdc70d3ebc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#ac1624104969585e1fb419ebdc70d3ebc">getFrameLastPts</a> ()</td></tr>
+<tr class="separator:ac1624104969585e1fb419ebdc70d3ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03b4f6e30d570f5a0f6430d73acfe47c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a03b4f6e30d570f5a0f6430d73acfe47c">setFrameLastDelay</a> (const double &amp;<a class="el" href="classplayer_video.html#ad992e5ba108b813c277068b1107f473d">frameLastDelay</a>)</td></tr>
+<tr class="memdesc:a03b4f6e30d570f5a0f6430d73acfe47c"><td class="mdescLeft">&#160;</td><td class="mdescRight">设置上一帧的延时  <a href="#a03b4f6e30d570f5a0f6430d73acfe47c">更多...</a><br /></td></tr>
+<tr class="separator:a03b4f6e30d570f5a0f6430d73acfe47c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad51001665e7ae1746f1feeb2710c33c6"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#ad51001665e7ae1746f1feeb2710c33c6">getFrameLastDelay</a> ()</td></tr>
+<tr class="separator:ad51001665e7ae1746f1feeb2710c33c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a713e3955bb721d1b3944bdae552f0a97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a713e3955bb721d1b3944bdae552f0a97">setVideoClock</a> (const double &amp;<a class="el" href="classplayer_video.html#a03cd6a08e02137749010a676d75a4bbf">videoClock</a>)</td></tr>
+<tr class="separator:a713e3955bb721d1b3944bdae552f0a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a149b610ede2d12f49acd5b2882d395e3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a149b610ede2d12f49acd5b2882d395e3">getVideoClock</a> ()</td></tr>
+<tr class="separator:a149b610ede2d12f49acd5b2882d395e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a654fddd5c4756630f7458ec72c0d7028"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a654fddd5c4756630f7458ec72c0d7028">getIsPlaying</a> ()</td></tr>
+<tr class="separator:a654fddd5c4756630f7458ec72c0d7028"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6465cf20ec1d13218db3f1744ea3ee36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a6465cf20ec1d13218db3f1744ea3ee36">setPlaying</a> (bool isPlaying)</td></tr>
+<tr class="separator:a6465cf20ec1d13218db3f1744ea3ee36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a098f91758a17c5326f30c0a5f15d8171"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a098f91758a17c5326f30c0a5f15d8171">clearFrames</a> ()</td></tr>
+<tr class="separator:a098f91758a17c5326f30c0a5f15d8171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f4dff5bea810bdd901558f19b278393"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a2f4dff5bea810bdd901558f19b278393">clearPackets</a> ()</td></tr>
+<tr class="separator:a2f4dff5bea810bdd901558f19b278393"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f02c549b9414c49d906cdf7511b7d0b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a1f02c549b9414c49d906cdf7511b7d0b">~playerVideo</a> ()</td></tr>
+<tr class="separator:a1f02c549b9414c49d906cdf7511b7d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a8fa5195a4fe56c18b7d141a83b192af4"><td class="memItemLeft" align="right" valign="top">SwsContext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a8fa5195a4fe56c18b7d141a83b192af4">swsContext</a> = nullptr</td></tr>
+<tr class="memdesc:a8fa5195a4fe56c18b7d141a83b192af4"><td class="mdescLeft">&#160;</td><td class="mdescRight">视频解码器上下文  <a href="#a8fa5195a4fe56c18b7d141a83b192af4">更多...</a><br /></td></tr>
+<tr class="separator:a8fa5195a4fe56c18b7d141a83b192af4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private 属性</h2></td></tr>
+<tr class="memitem:aef118197280a9ebe42bb4249d27159d6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#aef118197280a9ebe42bb4249d27159d6">streamIndex</a> = -1</td></tr>
+<tr class="separator:aef118197280a9ebe42bb4249d27159d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3bcf8c337e9dc98e96c151db1bd2187"><td class="memItemLeft" align="right" valign="top">AVStream *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#ad3bcf8c337e9dc98e96c151db1bd2187">stream</a></td></tr>
+<tr class="memdesc:ad3bcf8c337e9dc98e96c151db1bd2187"><td class="mdescLeft">&#160;</td><td class="mdescRight">视频流指针  <a href="#ad3bcf8c337e9dc98e96c151db1bd2187">更多...</a><br /></td></tr>
+<tr class="separator:ad3bcf8c337e9dc98e96c151db1bd2187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a762da60894657dfba150523f3f950399"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a762da60894657dfba150523f3f950399">frameTimer</a></td></tr>
+<tr class="separator:a762da60894657dfba150523f3f950399"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a197be3907f910cab451f8dc6add4ae94"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a197be3907f910cab451f8dc6add4ae94">frameLastPts</a></td></tr>
+<tr class="memdesc:a197be3907f910cab451f8dc6add4ae94"><td class="mdescLeft">&#160;</td><td class="mdescRight">保存上一帧的pts  <a href="#a197be3907f910cab451f8dc6add4ae94">更多...</a><br /></td></tr>
+<tr class="separator:a197be3907f910cab451f8dc6add4ae94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad992e5ba108b813c277068b1107f473d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#ad992e5ba108b813c277068b1107f473d">frameLastDelay</a></td></tr>
+<tr class="memdesc:ad992e5ba108b813c277068b1107f473d"><td class="mdescLeft">&#160;</td><td class="mdescRight">上一帧延时  <a href="#ad992e5ba108b813c277068b1107f473d">更多...</a><br /></td></tr>
+<tr class="separator:ad992e5ba108b813c277068b1107f473d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03cd6a08e02137749010a676d75a4bbf"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a03cd6a08e02137749010a676d75a4bbf">videoClock</a></td></tr>
+<tr class="memdesc:a03cd6a08e02137749010a676d75a4bbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">视频时钟  <a href="#a03cd6a08e02137749010a676d75a4bbf">更多...</a><br /></td></tr>
+<tr class="separator:a03cd6a08e02137749010a676d75a4bbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab650f324e5deec8aa2c6ffbd88fe3115"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#ab650f324e5deec8aa2c6ffbd88fe3115">isPlay</a> = false</td></tr>
+<tr class="separator:ab650f324e5deec8aa2c6ffbd88fe3115"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a310c1c6e55254f5b8c90db1f521065dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classpacket_queue.html">packetQueue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a310c1c6e55254f5b8c90db1f521065dc">videoPackets</a></td></tr>
+<tr class="memdesc:a310c1c6e55254f5b8c90db1f521065dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">视频packet队列  <a href="#a310c1c6e55254f5b8c90db1f521065dc">更多...</a><br /></td></tr>
+<tr class="separator:a310c1c6e55254f5b8c90db1f521065dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64cde70073dadbaa600f89840164bdfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classframe_queue.html">frameQueue</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a64cde70073dadbaa600f89840164bdfe">frameQueue</a></td></tr>
+<tr class="memdesc:a64cde70073dadbaa600f89840164bdfe"><td class="mdescLeft">&#160;</td><td class="mdescRight">视频帧队列  <a href="#a64cde70073dadbaa600f89840164bdfe">更多...</a><br /></td></tr>
+<tr class="separator:a64cde70073dadbaa600f89840164bdfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76157083e0873fd0740caf850676332e"><td class="memItemLeft" align="right" valign="top">AVCodecContext *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a76157083e0873fd0740caf850676332e">videoContext</a></td></tr>
+<tr class="memdesc:a76157083e0873fd0740caf850676332e"><td class="mdescLeft">&#160;</td><td class="mdescRight">视频流上下文  <a href="#a76157083e0873fd0740caf850676332e">更多...</a><br /></td></tr>
+<tr class="separator:a76157083e0873fd0740caf850676332e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a144e7164ee32bdbfc1539ebd6c104f49"><td class="memItemLeft" align="right" valign="top">QMutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classplayer_video.html#a144e7164ee32bdbfc1539ebd6c104f49">mutex</a></td></tr>
+<tr class="separator:a144e7164ee32bdbfc1539ebd6c104f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>视频类 </p>
+<p>继承QThread，用于解封装视频packet， 设置视频时钟，管理视频packet队列和frame队列 </p>
+
+<p class="definition">在文件 <a class="el" href="player_video_8h_source.html">playerVideo.h</a> 第 <a class="el" href="player_video_8h_source.html#l00025">25</a> 行定义.</p>
+</div><h2 class="groupheader">构造及析构函数说明</h2>
+<a id="ac37ac2cb7c50e47ba3d63aaa4f496c1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac37ac2cb7c50e47ba3d63aaa4f496c1e">&#9670;&nbsp;</a></span>playerVideo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">playerVideo::playerVideo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00005">5</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a1f02c549b9414c49d906cdf7511b7d0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f02c549b9414c49d906cdf7511b7d0b">&#9670;&nbsp;</a></span>~playerVideo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">playerVideo::~playerVideo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00190">190</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a098f91758a17c5326f30c0a5f15d8171"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a098f91758a17c5326f30c0a5f15d8171">&#9670;&nbsp;</a></span>clearFrames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void playerVideo::clearFrames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00179">179</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a2f4dff5bea810bdd901558f19b278393"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f4dff5bea810bdd901558f19b278393">&#9670;&nbsp;</a></span>clearPackets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void playerVideo::clearPackets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00184">184</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a2834ff79aaea9f58fee753c2c150272b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2834ff79aaea9f58fee753c2c150272b">&#9670;&nbsp;</a></span>dequeueFrame()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AVFrame * playerVideo::dequeueFrame </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00119">119</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a9c14f3e5c200d6e03829068443c85665"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c14f3e5c200d6e03829068443c85665">&#9670;&nbsp;</a></span>enqueuePacket()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void playerVideo::enqueuePacket </td>
+          <td>(</td>
+          <td class="paramtype">const AVPacket&#160;</td>
+          <td class="paramname"><em>packet</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00114">114</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ad8135f5b99f82a34929761b0be7f9151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8135f5b99f82a34929761b0be7f9151">&#9670;&nbsp;</a></span>getAVCodecContext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AVCodecContext * playerVideo::getAVCodecContext </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00099">99</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ad51001665e7ae1746f1feeb2710c33c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad51001665e7ae1746f1feeb2710c33c6">&#9670;&nbsp;</a></span>getFrameLastDelay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double playerVideo::getFrameLastDelay </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00154">154</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ac1624104969585e1fb419ebdc70d3ebc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1624104969585e1fb419ebdc70d3ebc">&#9670;&nbsp;</a></span>getFrameLastPts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double playerVideo::getFrameLastPts </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00144">144</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ae7f279557b9e7bd99b9f496b89fa5ce1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7f279557b9e7bd99b9f496b89fa5ce1">&#9670;&nbsp;</a></span>getFrameTimer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double playerVideo::getFrameTimer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00134">134</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a654fddd5c4756630f7458ec72c0d7028"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a654fddd5c4756630f7458ec72c0d7028">&#9670;&nbsp;</a></span>getIsPlaying()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool playerVideo::getIsPlaying </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00169">169</a> 行定义.</p>
+
+</div>
+</div>
+<a id="afdd838f023381a0a21ce88132e1c5b6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdd838f023381a0a21ce88132e1c5b6e">&#9670;&nbsp;</a></span>getStreamIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int playerVideo::getStreamIndex </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00095">95</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a149b610ede2d12f49acd5b2882d395e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a149b610ede2d12f49acd5b2882d395e3">&#9670;&nbsp;</a></span>getVideoClock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double playerVideo::getVideoClock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00164">164</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a57259bf6f977d96a0d11559c9b4e783f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57259bf6f977d96a0d11559c9b4e783f">&#9670;&nbsp;</a></span>getVideoFrameSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int playerVideo::getVideoFrameSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00124">124</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a8c7c30bb38e521136414764211a0959e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c7c30bb38e521136414764211a0959e">&#9670;&nbsp;</a></span>getVideoQueueSize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int playerVideo::getVideoQueueSize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00109">109</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a27c54136942b3111dcb0e19c09e07e8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27c54136942b3111dcb0e19c09e07e8b">&#9670;&nbsp;</a></span>getVideoStream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">AVStream * playerVideo::getVideoStream </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00080">80</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ada6ca11f0f622af94227b00fe910f369"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada6ca11f0f622af94227b00fe910f369">&#9670;&nbsp;</a></span>run()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void playerVideo::run </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>视频解封装线程 </p>
+<p>从视频队列中取出packet解封装为frame， 将frame放入帧队列，设置当前帧延时 </p>
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00014">14</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a5112f20de13024c1c7ab273dffbc619a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5112f20de13024c1c7ab273dffbc619a">&#9670;&nbsp;</a></span>setAVCodecContext()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void playerVideo::setAVCodecContext </td>
+          <td>(</td>
+          <td class="paramtype">AVCodecContext *&#160;</td>
+          <td class="paramname"><em>videoContext</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00104">104</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a03b4f6e30d570f5a0f6430d73acfe47c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03b4f6e30d570f5a0f6430d73acfe47c">&#9670;&nbsp;</a></span>setFrameLastDelay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void playerVideo::setFrameLastDelay </td>
+          <td>(</td>
+          <td class="paramtype">const double &amp;&#160;</td>
+          <td class="paramname"><em>frameLastDelay</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置上一帧的延时 </p>
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00149">149</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aa8402f263cb15bde4a44941ca0744c24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8402f263cb15bde4a44941ca0744c24">&#9670;&nbsp;</a></span>setFrameLastPts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void playerVideo::setFrameLastPts </td>
+          <td>(</td>
+          <td class="paramtype">const double &amp;&#160;</td>
+          <td class="paramname"><em>frameLastPts</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置上一帧的播放时间 </p>
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00139">139</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a8cb9a9dff62dce19f792e25673e540dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cb9a9dff62dce19f792e25673e540dc">&#9670;&nbsp;</a></span>setFrameTimer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void playerVideo::setFrameTimer </td>
+          <td>(</td>
+          <td class="paramtype">const double &amp;&#160;</td>
+          <td class="paramname"><em>frameTimer</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00129">129</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a6465cf20ec1d13218db3f1744ea3ee36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6465cf20ec1d13218db3f1744ea3ee36">&#9670;&nbsp;</a></span>setPlaying()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void playerVideo::setPlaying </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isPlaying</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00174">174</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a7a1f2e5636f1482c5d378f7f862fd597"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a1f2e5636f1482c5d378f7f862fd597">&#9670;&nbsp;</a></span>setStreamIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void playerVideo::setStreamIndex </td>
+          <td>(</td>
+          <td class="paramtype">const int &amp;&#160;</td>
+          <td class="paramname"><em>streamIndex</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00090">90</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a713e3955bb721d1b3944bdae552f0a97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a713e3955bb721d1b3944bdae552f0a97">&#9670;&nbsp;</a></span>setVideoClock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void playerVideo::setVideoClock </td>
+          <td>(</td>
+          <td class="paramtype">const double &amp;&#160;</td>
+          <td class="paramname"><em>videoClock</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00159">159</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ace5d7671f4ae61f69e622e299febabb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace5d7671f4ae61f69e622e299febabb3">&#9670;&nbsp;</a></span>setVideoStream()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void playerVideo::setVideoStream </td>
+          <td>(</td>
+          <td class="paramtype">AVStream *&amp;&#160;</td>
+          <td class="paramname"><em>stream</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00085">85</a> 行定义.</p>
+
+</div>
+</div>
+<a id="acbe11582b7ceb00e212b6f8dfd69abab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbe11582b7ceb00e212b6f8dfd69abab">&#9670;&nbsp;</a></span>synchronizeVideo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double playerVideo::synchronizeVideo </td>
+          <td>(</td>
+          <td class="paramtype">AVFrame *&amp;&#160;</td>
+          <td class="paramname"><em>srcFrame</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double &amp;&#160;</td>
+          <td class="paramname"><em>pts</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>设置当前视频流videoClock </p>
+<p>videoClock是视频播放到当前帧时的已播放的时间长度。 在synchronize函数中，如果没有得到该帧的PTS就用当前的videoClock来近似， 然后更新video_clock的值。</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">srcFrame</td><td>当前解码的frame </td></tr>
+    <tr><td class="paramname">pts</td><td>当前frame的pts </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">在文件 <a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a> 第 <a class="el" href="player_video_8cpp_source.html#l00064">64</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="ad992e5ba108b813c277068b1107f473d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad992e5ba108b813c277068b1107f473d">&#9670;&nbsp;</a></span>frameLastDelay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double playerVideo::frameLastDelay</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>上一帧延时 </p>
+
+<p class="definition">在文件 <a class="el" href="player_video_8h_source.html">playerVideo.h</a> 第 <a class="el" href="player_video_8h_source.html#l00093">93</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a197be3907f910cab451f8dc6add4ae94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a197be3907f910cab451f8dc6add4ae94">&#9670;&nbsp;</a></span>frameLastPts</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double playerVideo::frameLastPts</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>保存上一帧的pts </p>
+
+<p class="definition">在文件 <a class="el" href="player_video_8h_source.html">playerVideo.h</a> 第 <a class="el" href="player_video_8h_source.html#l00092">92</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a64cde70073dadbaa600f89840164bdfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64cde70073dadbaa600f89840164bdfe">&#9670;&nbsp;</a></span>frameQueue</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classframe_queue.html">frameQueue</a> playerVideo::frameQueue</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>视频帧队列 </p>
+
+<p class="definition">在文件 <a class="el" href="player_video_8h_source.html">playerVideo.h</a> 第 <a class="el" href="player_video_8h_source.html#l00098">98</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a762da60894657dfba150523f3f950399"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a762da60894657dfba150523f3f950399">&#9670;&nbsp;</a></span>frameTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double playerVideo::frameTimer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8h_source.html">playerVideo.h</a> 第 <a class="el" href="player_video_8h_source.html#l00091">91</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ab650f324e5deec8aa2c6ffbd88fe3115"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab650f324e5deec8aa2c6ffbd88fe3115">&#9670;&nbsp;</a></span>isPlay</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool playerVideo::isPlay = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8h_source.html">playerVideo.h</a> 第 <a class="el" href="player_video_8h_source.html#l00095">95</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a144e7164ee32bdbfc1539ebd6c104f49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a144e7164ee32bdbfc1539ebd6c104f49">&#9670;&nbsp;</a></span>mutex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QMutex playerVideo::mutex</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8h_source.html">playerVideo.h</a> 第 <a class="el" href="player_video_8h_source.html#l00102">102</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ad3bcf8c337e9dc98e96c151db1bd2187"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3bcf8c337e9dc98e96c151db1bd2187">&#9670;&nbsp;</a></span>stream</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AVStream* playerVideo::stream</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>视频流指针 </p>
+
+<p class="definition">在文件 <a class="el" href="player_video_8h_source.html">playerVideo.h</a> 第 <a class="el" href="player_video_8h_source.html#l00089">89</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aef118197280a9ebe42bb4249d27159d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef118197280a9ebe42bb4249d27159d6">&#9670;&nbsp;</a></span>streamIndex</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int playerVideo::streamIndex = -1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="player_video_8h_source.html">playerVideo.h</a> 第 <a class="el" href="player_video_8h_source.html#l00088">88</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a8fa5195a4fe56c18b7d141a83b192af4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fa5195a4fe56c18b7d141a83b192af4">&#9670;&nbsp;</a></span>swsContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SwsContext* playerVideo::swsContext = nullptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>视频解码器上下文 </p>
+
+<p class="definition">在文件 <a class="el" href="player_video_8h_source.html">playerVideo.h</a> 第 <a class="el" href="player_video_8h_source.html#l00085">85</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a03cd6a08e02137749010a676d75a4bbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03cd6a08e02137749010a676d75a4bbf">&#9670;&nbsp;</a></span>videoClock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double playerVideo::videoClock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>视频时钟 </p>
+
+<p class="definition">在文件 <a class="el" href="player_video_8h_source.html">playerVideo.h</a> 第 <a class="el" href="player_video_8h_source.html#l00094">94</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a76157083e0873fd0740caf850676332e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76157083e0873fd0740caf850676332e">&#9670;&nbsp;</a></span>videoContext</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">AVCodecContext* playerVideo::videoContext</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>视频流上下文 </p>
+
+<p class="definition">在文件 <a class="el" href="player_video_8h_source.html">playerVideo.h</a> 第 <a class="el" href="player_video_8h_source.html#l00100">100</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a310c1c6e55254f5b8c90db1f521065dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a310c1c6e55254f5b8c90db1f521065dc">&#9670;&nbsp;</a></span>videoPackets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classpacket_queue.html">packetQueue</a>* playerVideo::videoPackets</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>视频packet队列 </p>
+
+<p class="definition">在文件 <a class="el" href="player_video_8h_source.html">playerVideo.h</a> 第 <a class="el" href="player_video_8h_source.html#l00097">97</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>F:/入职前作业ffmpeg/my_player_qt/my_player_qt/<a class="el" href="player_video_8h_source.html">playerVideo.h</a></li>
+<li>F:/入职前作业ffmpeg/my_player_qt/my_player_qt/<a class="el" href="player_video_8cpp_source.html">playerVideo.cpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

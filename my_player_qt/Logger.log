@@ -1,0 +1,25 @@
+[AV_LOG_VERBOSE] Starting connection attempt to 61.182.138.5 port 80
+[AV_LOG_VERBOSE] Successfully connected to 61.182.138.5 port 80
+[AV_LOG_VERBOSE] Reinit context to 1280x720, pix_fmt: yuv420p
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'http://tb-video.bdstatic.com/tieba-smallvideo/68_20df3a646ab5357464cd819ea987763a.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf57.41.100
+    comment         : vid:09ab0bf7046141948dbfa708ed895b9e
+  Duration: 00:01:08.82, start: 0.000000, bitrate: 713 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], 661 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (HE-AAC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 48 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+[AV_LOG_VERBOSE] Reinit context to 1280x720, pix_fmt: yuv420p
+[AV_LOG_VERBOSE] Starting connection attempt to 61.182.138.5 port 80
+[AV_LOG_VERBOSE] Successfully connected to 61.182.138.5 port 80
+[AV_LOG_VERBOSE] Starting connection attempt to 61.182.138.5 port 80
+[AV_LOG_VERBOSE] Successfully connected to 61.182.138.5 port 80
+[AV_LOG_VERBOSE] Starting connection attempt to 61.182.138.5 port 80
+[AV_LOG_VERBOSE] Successfully connected to 61.182.138.5 port 80
+[AV_LOG_PANIC] 

@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>myPlayer: F:/入职前作业ffmpeg/my_player_qt/my_player_qt/videoWidget.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">myPlayer
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_3a581ba30d25676e4b797b1f96d53b45.html">F:</a></li><li class="navelem"><a class="el" href="dir_8371d4666054c3079741f2976e962595.html">入职前作业ffmpeg</a></li><li class="navelem"><a class="el" href="dir_a4e566db14a4e162b474108657e9647f.html">my_player_qt</a></li><li class="navelem"><a class="el" href="dir_e7f0be4db775f263e7a7485c6043fee8.html">my_player_qt</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">videoWidget.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="video_widget_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;QtWidgets/qwidget.h&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;QOpenGLWidget&gt;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="classvideo_widget.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="classvideo_widget.html">videoWidget</a> :</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">public</span> QOpenGLWidget</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="classvideo_widget.html#a88a8292188cf93b45a5c461dd7dc805b">videoWidget</a>(QWidget *p = <span class="keyword">nullptr</span>);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classvideo_widget.html#adb7356ae045d6b9442fbbde8340465b5">paintEvent</a>(QPaintEvent *pEvent);</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classvideo_widget.html#ae8ae0c1cdc67725e36e9bfc80538b27a">timerEvent</a>(QTimerEvent *pEvent);</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classvideo_widget.html#a1898467b48d9ddd807942837768b54e9">mouseMoveEvent</a>(QMouseEvent *pEvent);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="classvideo_widget.html#a88a8292188cf93b45a5c461dd7dc805b">videoWidget</a>();</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="classvideo_widget.html#af9c7b7d9f8b7f2bcc15acbfcbb25b753">~videoWidget</a>();</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keyword">public</span> slots:</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classvideo_widget.html#a9a9296eb4d3e30602f6a9de378bbf92d">setVideoImage</a>(QImage* img);</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classvideo_widget.html#a9f768cb95a08d608a4eab9d400e37c5f">hideMouse</a>();</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;signals:</div><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classvideo_widget.html#af441e64f16141bdeb599aad7a94393e2">showSlider</a>(<span class="keywordtype">bool</span> isShow);</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classvideo_widget.html#ab46771777ad3544f05b47f62613fa5c3">   53</a></span>&#160;    QTimer *<a class="code" href="classvideo_widget.html#ab46771777ad3544f05b47f62613fa5c3">mouseTimer</a>;  </div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;};</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div><div class="ttc" id="classvideo_widget_html_a9a9296eb4d3e30602f6a9de378bbf92d"><div class="ttname"><a href="classvideo_widget.html#a9a9296eb4d3e30602f6a9de378bbf92d">videoWidget::setVideoImage</a></div><div class="ttdeci">void setVideoImage(QImage *img)</div><div class="ttdoc">显示视频解码后的视频帧图像</div><div class="ttdef"><b>Definition:</b> <a href="video_widget_8cpp_source.html#l00031">videoWidget.cpp:31</a></div></div>
+<div class="ttc" id="classvideo_widget_html_af9c7b7d9f8b7f2bcc15acbfcbb25b753"><div class="ttname"><a href="classvideo_widget.html#af9c7b7d9f8b7f2bcc15acbfcbb25b753">videoWidget::~videoWidget</a></div><div class="ttdeci">~videoWidget()</div><div class="ttdef"><b>Definition:</b> <a href="video_widget_8cpp_source.html#l00073">videoWidget.cpp:73</a></div></div>
+<div class="ttc" id="classvideo_widget_html_a88a8292188cf93b45a5c461dd7dc805b"><div class="ttname"><a href="classvideo_widget.html#a88a8292188cf93b45a5c461dd7dc805b">videoWidget::videoWidget</a></div><div class="ttdeci">videoWidget()</div><div class="ttdef"><b>Definition:</b> <a href="video_widget_8cpp_source.html#l00070">videoWidget.cpp:70</a></div></div>
+<div class="ttc" id="classvideo_widget_html_a9f768cb95a08d608a4eab9d400e37c5f"><div class="ttname"><a href="classvideo_widget.html#a9f768cb95a08d608a4eab9d400e37c5f">videoWidget::hideMouse</a></div><div class="ttdeci">void hideMouse()</div><div class="ttdoc">隐藏鼠标</div><div class="ttdef"><b>Definition:</b> <a href="video_widget_8cpp_source.html#l00037">videoWidget.cpp:37</a></div></div>
+<div class="ttc" id="classvideo_widget_html_af441e64f16141bdeb599aad7a94393e2"><div class="ttname"><a href="classvideo_widget.html#af441e64f16141bdeb599aad7a94393e2">videoWidget::showSlider</a></div><div class="ttdeci">void showSlider(bool isShow)</div><div class="ttdoc">隐藏进度条信号</div></div>
+<div class="ttc" id="classvideo_widget_html_adb7356ae045d6b9442fbbde8340465b5"><div class="ttname"><a href="classvideo_widget.html#adb7356ae045d6b9442fbbde8340465b5">videoWidget::paintEvent</a></div><div class="ttdeci">void paintEvent(QPaintEvent *pEvent)</div><div class="ttdef"><b>Definition:</b> <a href="video_widget_8cpp_source.html#l00043">videoWidget.cpp:43</a></div></div>
+<div class="ttc" id="classvideo_widget_html_a1898467b48d9ddd807942837768b54e9"><div class="ttname"><a href="classvideo_widget.html#a1898467b48d9ddd807942837768b54e9">videoWidget::mouseMoveEvent</a></div><div class="ttdeci">void mouseMoveEvent(QMouseEvent *pEvent)</div><div class="ttdef"><b>Definition:</b> <a href="video_widget_8cpp_source.html#l00061">videoWidget.cpp:61</a></div></div>
+<div class="ttc" id="classvideo_widget_html"><div class="ttname"><a href="classvideo_widget.html">videoWidget</a></div><div class="ttdoc">qt的openGLWidget控件类</div><div class="ttdef"><b>Definition:</b> <a href="video_widget_8h_source.html#l00019">videoWidget.h:19</a></div></div>
+<div class="ttc" id="classvideo_widget_html_ae8ae0c1cdc67725e36e9bfc80538b27a"><div class="ttname"><a href="classvideo_widget.html#ae8ae0c1cdc67725e36e9bfc80538b27a">videoWidget::timerEvent</a></div><div class="ttdeci">void timerEvent(QTimerEvent *pEvent)</div><div class="ttdef"><b>Definition:</b> <a href="video_widget_8cpp_source.html#l00057">videoWidget.cpp:57</a></div></div>
+<div class="ttc" id="classvideo_widget_html_ab46771777ad3544f05b47f62613fa5c3"><div class="ttname"><a href="classvideo_widget.html#ab46771777ad3544f05b47f62613fa5c3">videoWidget::mouseTimer</a></div><div class="ttdeci">QTimer * mouseTimer</div><div class="ttdoc">鼠标显示定时器</div><div class="ttdef"><b>Definition:</b> <a href="video_widget_8h_source.html#l00053">videoWidget.h:53</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

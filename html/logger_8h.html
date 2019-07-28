@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>myPlayer: F:/入职前作业ffmpeg/my_player_qt/my_player_qt/logger.h 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">myPlayer
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_3a581ba30d25676e4b797b1f96d53b45.html">F:</a></li><li class="navelem"><a class="el" href="dir_8371d4666054c3079741f2976e962595.html">入职前作业ffmpeg</a></li><li class="navelem"><a class="el" href="dir_a4e566db14a4e162b474108657e9647f.html">my_player_qt</a></li><li class="navelem"><a class="el" href="dir_e7f0be4db775f263e7a7485c6043fee8.html">my_player_qt</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#define-members">宏定义</a> &#124;
+<a href="#typedef-members">类型定义</a> &#124;
+<a href="#enum-members">枚举</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">logger.h 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>日志类，用于管理程序运行的日志信息和ffmpeg的输出日志  
+<a href="#details">更多...</a></p>
+<div class="textblock"><code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;iomanip&gt;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;cstdlib&gt;</code><br />
+<code>#include &lt;stdint.h&gt;</code><br />
+<code>#include &lt;libavformat\avformat.h&gt;</code><br />
+</div>
+<p><a href="logger_8h_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classlogger.html">logger</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">日志类  <a href="classlogger.html#details">更多...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+宏定义</h2></td></tr>
+<tr class="memitem:a43882d27887450d7eb005eb0bcc5b995"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#a43882d27887450d7eb005eb0bcc5b995">__logger__</a></td></tr>
+<tr class="separator:a43882d27887450d7eb005eb0bcc5b995"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97bf324abc6c78c181f590216b35a721"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#a97bf324abc6c78c181f590216b35a721">LOG</a>(rank)&#160;&#160;&#160;<a class="el" href="classlogger.html#a79a1dda51541b5de2c1896cc2aa670b0">logger::getInstance</a>()-&gt;start(rank, __LINE__,__FUNCTION__)</td></tr>
+<tr class="separator:a97bf324abc6c78c181f590216b35a721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+类型定义</h2></td></tr>
+<tr class="memitem:a62ae2cae45e6a157ec8bf766af9b2955"><td class="memItemLeft" align="right" valign="top">typedef enum <a class="el" href="logger_8h.html#ae4559ab7ddcfb9b19a50225871919e7d">logRank</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#a62ae2cae45e6a157ec8bf766af9b2955">logRankType</a></td></tr>
+<tr class="memdesc:a62ae2cae45e6a157ec8bf766af9b2955"><td class="mdescLeft">&#160;</td><td class="mdescRight">定义三个不同的日志级别  <a href="#a62ae2cae45e6a157ec8bf766af9b2955">更多...</a><br /></td></tr>
+<tr class="separator:a62ae2cae45e6a157ec8bf766af9b2955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+枚举</h2></td></tr>
+<tr class="memitem:ae4559ab7ddcfb9b19a50225871919e7d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#ae4559ab7ddcfb9b19a50225871919e7d">logRank</a> { <a class="el" href="logger_8h.html#ae4559ab7ddcfb9b19a50225871919e7da6e98ff471e3ce6c4ef2d75c37ee51837">LOG_INFO</a> =1, 
+<a class="el" href="logger_8h.html#ae4559ab7ddcfb9b19a50225871919e7da8f6fe15bfe15104da6d1b360194a5400">LOG_WARNING</a>, 
+<a class="el" href="logger_8h.html#ae4559ab7ddcfb9b19a50225871919e7da230506cce5c68c3bac5a821c42ed3473">LOG_ERROR</a>
+ }</td></tr>
+<tr class="memdesc:ae4559ab7ddcfb9b19a50225871919e7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">定义三个不同的日志级别  <a href="logger_8h.html#ae4559ab7ddcfb9b19a50225871919e7d">更多...</a><br /></td></tr>
+<tr class="separator:ae4559ab7ddcfb9b19a50225871919e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a7dbe67fc994440324e6e024ee655ff98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="logger_8h.html#a7dbe67fc994440324e6e024ee655ff98">initLogger</a> (const std::string &amp;logFilename)</td></tr>
+<tr class="separator:a7dbe67fc994440324e6e024ee655ff98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><p>日志类，用于管理程序运行的日志信息和ffmpeg的输出日志 </p>
+<dl class="section author"><dt>作者</dt><dd>巢娅(<a href="#" onclick="location.href='mai'+'lto:'+'imc'+'y1'+'994'+'@1'+'63.'+'co'+'m'; return false;">imcy1<span style="display: none;">.nosp@m.</span>994@<span style="display: none;">.nosp@m.</span>163.c<span style="display: none;">.nosp@m.</span>om</a>)</dd></dl>
+<dl class="section version"><dt>版本</dt><dd>1.0.0.0</dd></dl>
+<dl class="section date"><dt>日期</dt><dd>2019.05.15</dd></dl>
+<pre class="fragment"></pre> 
+<p class="definition">在文件 <a class="el" href="logger_8h_source.html">logger.h</a> 中定义.</p>
+</div><h2 class="groupheader">宏定义说明</h2>
+<a id="a43882d27887450d7eb005eb0bcc5b995"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43882d27887450d7eb005eb0bcc5b995">&#9670;&nbsp;</a></span>__logger__</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define __logger__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="logger_8h_source.html">logger.h</a> 第 <a class="el" href="logger_8h_source.html#l00013">13</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a97bf324abc6c78c181f590216b35a721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97bf324abc6c78c181f590216b35a721">&#9670;&nbsp;</a></span>LOG</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define LOG</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">rank</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="classlogger.html#a79a1dda51541b5de2c1896cc2aa670b0">logger::getInstance</a>()-&gt;start(rank, __LINE__,__FUNCTION__)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="logger_8h_source.html">logger.h</a> 第 <a class="el" href="logger_8h_source.html#l00097">97</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类型定义说明</h2>
+<a id="a62ae2cae45e6a157ec8bf766af9b2955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62ae2cae45e6a157ec8bf766af9b2955">&#9670;&nbsp;</a></span>logRankType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef enum <a class="el" href="logger_8h.html#ae4559ab7ddcfb9b19a50225871919e7d">logRank</a> <a class="el" href="logger_8h.html#a62ae2cae45e6a157ec8bf766af9b2955">logRankType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>定义三个不同的日志级别 </p>
+
+</div>
+</div>
+<h2 class="groupheader">枚举类型说明</h2>
+<a id="ae4559ab7ddcfb9b19a50225871919e7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4559ab7ddcfb9b19a50225871919e7d">&#9670;&nbsp;</a></span>logRank</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="logger_8h.html#ae4559ab7ddcfb9b19a50225871919e7d">logRank</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>定义三个不同的日志级别 </p>
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="ae4559ab7ddcfb9b19a50225871919e7da6e98ff471e3ce6c4ef2d75c37ee51837"></a>LOG_INFO&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae4559ab7ddcfb9b19a50225871919e7da8f6fe15bfe15104da6d1b360194a5400"></a>LOG_WARNING&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae4559ab7ddcfb9b19a50225871919e7da230506cce5c68c3bac5a821c42ed3473"></a>LOG_ERROR&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">在文件 <a class="el" href="logger_8h_source.html">logger.h</a> 第 <a class="el" href="logger_8h_source.html#l00028">28</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">函数说明</h2>
+<a id="a7dbe67fc994440324e6e024ee655ff98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dbe67fc994440324e6e024ee655ff98">&#9670;&nbsp;</a></span>initLogger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void initLogger </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>logFilename</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>用于打开日志文件，初始化输出流</p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">logFilename</td><td>日志文件名称 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">在文件 <a class="el" href="logger_8cpp_source.html">logger.cpp</a> 第 <a class="el" href="logger_8cpp_source.html#l00021">21</a> 行定义.</p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="my_player_qt">
+    <file>Resources/loading.gif</file>
+    <file>Resources/playerIcon.ico</file>
+    <file>Resources/playerIcon.png</file>
+    <file>Resources/VOLUME.png</file>
+    <file>Resources/CIRCLE_FAST_FORWARD.png</file>
+    <file>Resources/CIRCLE_PAUSE.png</file>
+    <file>Resources/CIRCLE_PLAY.png</file>
+    <file>Resources/CIRCLE_REWIND.png</file>
+    <file>Resources/CIRCLE_STOP.png</file>
+    <file>Resources/VOLUME_MUTE.png</file>
+    <file>Resources/CIRCLE_SKIP_NEXT.png</file>
+    <file>Resources/CIRCLE_SKIP_PREVIOUS.png</file>
+  </qresource>
+</RCC>

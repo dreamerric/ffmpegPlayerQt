@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>myPlayer: F:/入职前作业ffmpeg/my_player_qt/my_player_qt/readPacketsThread.h 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">myPlayer
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_3a581ba30d25676e4b797b1f96d53b45.html">F:</a></li><li class="navelem"><a class="el" href="dir_8371d4666054c3079741f2976e962595.html">入职前作业ffmpeg</a></li><li class="navelem"><a class="el" href="dir_a4e566db14a4e162b474108657e9647f.html">my_player_qt</a></li><li class="navelem"><a class="el" href="dir_e7f0be4db775f263e7a7485c6043fee8.html">my_player_qt</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">readPacketsThread.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="read_packets_thread_8h.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;QThread&gt;</span></div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;QMutex&gt;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classread_packets_thread.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classread_packets_thread.html">readPacketsThread</a> :<span class="keyword">public</span> QThread</div><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classread_packets_thread.html#a8b1c2aebb6ff7720b8a1be295a2c0b85">   21</a></span>&#160;    <span class="keyword">static</span> <a class="code" href="classread_packets_thread.html">readPacketsThread</a> * <a class="code" href="classread_packets_thread.html#a8b1c2aebb6ff7720b8a1be295a2c0b85">getInstance</a>() {</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keyword">static</span> <a class="code" href="classread_packets_thread.html">readPacketsThread</a> rpt;</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span> &amp;rpt;</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classread_packets_thread.html#ac3e5d45ce5ad55d8c405dda3a95dddfb">run</a>();</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classread_packets_thread.html#a71d1b1e1f99075e28fd287d05575fab5">getIsPlaying</a>();</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classread_packets_thread.html#a9099fedac495fdc450ebac431063353f">getIsSeeking</a>();</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classread_packets_thread.html#ab43ee5a75152f91b7b30c8fc645e44c5">setPlaying</a>(<span class="keywordtype">bool</span> isPlaying);</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classread_packets_thread.html#a6ea9fe65c7ed69500d253b66f7d44d88">~readPacketsThread</a>();</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">public</span> slots:</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classread_packets_thread.html#ab4122811294798569a126d1fd0391a3e">receivePos</a>(<span class="keywordtype">float</span> pos);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <a class="code" href="classread_packets_thread.html#a2e6452168a80cfd65d5ab5de0001e99c">readPacketsThread</a>();</div><div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="classread_packets_thread.html#a60b056b68bbd944ff04d2d3326f91f18">   48</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classread_packets_thread.html#a60b056b68bbd944ff04d2d3326f91f18">isSeek</a> = <span class="keyword">false</span>;</div><div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="classread_packets_thread.html#ae307fd96a51d54cf7fb015d3c2aa6fa2">   49</a></span>&#160;    <span class="keywordtype">float</span> <a class="code" href="classread_packets_thread.html#ae307fd96a51d54cf7fb015d3c2aa6fa2">currentPos</a> = 0;</div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    </div><div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="classread_packets_thread.html#a4649bf60183ab697b77b59e8b52393a3">   51</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classread_packets_thread.html#a4649bf60183ab697b77b59e8b52393a3">isPlay</a> = <span class="keyword">false</span>;</div><div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="classread_packets_thread.html#a72e6ec329d0d318d336777a5666e42b8">   52</a></span>&#160;    QMutex <a class="code" href="classread_packets_thread.html#a72e6ec329d0d318d336777a5666e42b8">mutex</a>;</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;};</div><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div><div class="ttc" id="classread_packets_thread_html_ab4122811294798569a126d1fd0391a3e"><div class="ttname"><a href="classread_packets_thread.html#ab4122811294798569a126d1fd0391a3e">readPacketsThread::receivePos</a></div><div class="ttdeci">void receivePos(float pos)</div><div class="ttdoc">接收主窗口视频跳转位置</div><div class="ttdef"><b>Definition:</b> <a href="read_packets_thread_8cpp_source.html#l00142">readPacketsThread.cpp:142</a></div></div>
+<div class="ttc" id="classread_packets_thread_html_ae307fd96a51d54cf7fb015d3c2aa6fa2"><div class="ttname"><a href="classread_packets_thread.html#ae307fd96a51d54cf7fb015d3c2aa6fa2">readPacketsThread::currentPos</a></div><div class="ttdeci">float currentPos</div><div class="ttdef"><b>Definition:</b> <a href="read_packets_thread_8h_source.html#l00049">readPacketsThread.h:49</a></div></div>
+<div class="ttc" id="classread_packets_thread_html_a72e6ec329d0d318d336777a5666e42b8"><div class="ttname"><a href="classread_packets_thread.html#a72e6ec329d0d318d336777a5666e42b8">readPacketsThread::mutex</a></div><div class="ttdeci">QMutex mutex</div><div class="ttdef"><b>Definition:</b> <a href="read_packets_thread_8h_source.html#l00052">readPacketsThread.h:52</a></div></div>
+<div class="ttc" id="classread_packets_thread_html_a9099fedac495fdc450ebac431063353f"><div class="ttname"><a href="classread_packets_thread.html#a9099fedac495fdc450ebac431063353f">readPacketsThread::getIsSeeking</a></div><div class="ttdeci">bool getIsSeeking()</div><div class="ttdoc">设置跳转标志</div><div class="ttdef"><b>Definition:</b> <a href="read_packets_thread_8cpp_source.html#l00133">readPacketsThread.cpp:133</a></div></div>
+<div class="ttc" id="classread_packets_thread_html_ac3e5d45ce5ad55d8c405dda3a95dddfb"><div class="ttname"><a href="classread_packets_thread.html#ac3e5d45ce5ad55d8c405dda3a95dddfb">readPacketsThread::run</a></div><div class="ttdeci">void run()</div><div class="ttdoc">音视频packet入队线程</div><div class="ttdef"><b>Definition:</b> <a href="read_packets_thread_8cpp_source.html#l00025">readPacketsThread.cpp:25</a></div></div>
+<div class="ttc" id="classread_packets_thread_html_a71d1b1e1f99075e28fd287d05575fab5"><div class="ttname"><a href="classread_packets_thread.html#a71d1b1e1f99075e28fd287d05575fab5">readPacketsThread::getIsPlaying</a></div><div class="ttdeci">bool getIsPlaying()</div><div class="ttdef"><b>Definition:</b> <a href="read_packets_thread_8cpp_source.html#l00128">readPacketsThread.cpp:128</a></div></div>
+<div class="ttc" id="classread_packets_thread_html_a8b1c2aebb6ff7720b8a1be295a2c0b85"><div class="ttname"><a href="classread_packets_thread.html#a8b1c2aebb6ff7720b8a1be295a2c0b85">readPacketsThread::getInstance</a></div><div class="ttdeci">static readPacketsThread * getInstance()</div><div class="ttdef"><b>Definition:</b> <a href="read_packets_thread_8h_source.html#l00021">readPacketsThread.h:21</a></div></div>
+<div class="ttc" id="classread_packets_thread_html_a4649bf60183ab697b77b59e8b52393a3"><div class="ttname"><a href="classread_packets_thread.html#a4649bf60183ab697b77b59e8b52393a3">readPacketsThread::isPlay</a></div><div class="ttdeci">bool isPlay</div><div class="ttdef"><b>Definition:</b> <a href="read_packets_thread_8h_source.html#l00051">readPacketsThread.h:51</a></div></div>
+<div class="ttc" id="classread_packets_thread_html_ab43ee5a75152f91b7b30c8fc645e44c5"><div class="ttname"><a href="classread_packets_thread.html#ab43ee5a75152f91b7b30c8fc645e44c5">readPacketsThread::setPlaying</a></div><div class="ttdeci">void setPlaying(bool isPlaying)</div><div class="ttdef"><b>Definition:</b> <a href="read_packets_thread_8cpp_source.html#l00137">readPacketsThread.cpp:137</a></div></div>
+<div class="ttc" id="classread_packets_thread_html_a60b056b68bbd944ff04d2d3326f91f18"><div class="ttname"><a href="classread_packets_thread.html#a60b056b68bbd944ff04d2d3326f91f18">readPacketsThread::isSeek</a></div><div class="ttdeci">bool isSeek</div><div class="ttdef"><b>Definition:</b> <a href="read_packets_thread_8h_source.html#l00048">readPacketsThread.h:48</a></div></div>
+<div class="ttc" id="classread_packets_thread_html_a6ea9fe65c7ed69500d253b66f7d44d88"><div class="ttname"><a href="classread_packets_thread.html#a6ea9fe65c7ed69500d253b66f7d44d88">readPacketsThread::~readPacketsThread</a></div><div class="ttdeci">virtual ~readPacketsThread()</div><div class="ttdef"><b>Definition:</b> <a href="read_packets_thread_8cpp_source.html#l00148">readPacketsThread.cpp:148</a></div></div>
+<div class="ttc" id="classread_packets_thread_html"><div class="ttname"><a href="classread_packets_thread.html">readPacketsThread</a></div><div class="ttdoc">读取视频音频和视频packet的线程类</div><div class="ttdef"><b>Definition:</b> <a href="read_packets_thread_8h_source.html#l00017">readPacketsThread.h:17</a></div></div>
+<div class="ttc" id="classread_packets_thread_html_a2e6452168a80cfd65d5ab5de0001e99c"><div class="ttname"><a href="classread_packets_thread.html#a2e6452168a80cfd65d5ab5de0001e99c">readPacketsThread::readPacketsThread</a></div><div class="ttdeci">readPacketsThread()</div><div class="ttdef"><b>Definition:</b> <a href="read_packets_thread_8cpp_source.html#l00021">readPacketsThread.cpp:21</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

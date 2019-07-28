@@ -1,0 +1,15 @@
+mp4:
+https://www.apple.com/105/media/us/iphone-x/2017/01df5b43-28e4-4848-bf20-490c34a926a7/films/feature/iphone-x-feature-tpl-cc-us-20170912_1280x720h.mp4
+https://www.apple.com/105/media/cn/mac/family/2018/46c4b917_abfd_45a3_9b51_4e3054191797/films/bruce/mac-bruce-tpl-cn-2018_1280x720h.mp4
+http://flv3.bn.netease.com/tvmrepo/2018/6/H/9/EDJTRBEH9/SD/EDJTRBEH9-mobile.mp4
+http://tb-video.bdstatic.com/tieba-smallvideo/68_20df3a646ab5357464cd819ea987763a.mp4
+
+m3u8:
+http://www.flashls.org/playlists/test_001/stream_1000k_48k_640x360.m3u8
+https://youku.cdn2-youku.com/20180710/12991_efbabf56/1000k/hls/index.m3u8
+
+flv:
+http://211.162.58.42/hc.yinyuetai.com/uploads/videos/common/057A0135F141DD8276839A813CF468FD.flv （无法打开）
+http://hc.yinyuetai.com/uploads/videos/common/97663820.h264_2_qiwei.flv
+http://hd.yinyuetai.com/uploads/videos/common/F3490134226EFE39BB119982211948F0.flv
+http://hd.yinyuetai.com/uploads/videos/common/78D801341D64EBAC4B7AB0ABEE5D09EF.flv

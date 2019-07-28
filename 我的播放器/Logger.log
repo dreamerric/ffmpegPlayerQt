@@ -1,0 +1,17 @@
+[AV_LOG_VERBOSE] Unsupported byte array in tag ASFLeakyBucketPairs.
+[AV_LOG_VERBOSE] parser not found for codec wmav2, packets or times may be invalid.
+[AV_LOG_VERBOSE] parser not found for codec wmav2, packets or times may be invalid.
+Input #0, asf, from 'F:/入职前作业ffmpeg/体验师计划作业-巢娅/功能演示.wmv':
+  Metadata:
+    WMFSDKNeeded    : 0.0.0.0000
+    DeviceConformanceTemplate: @
+    WMFSDKVersion   : 12.0.10011.16384
+    IsVBR           : 1
+    VBR Peak        : 2554050
+    Buffer Average  : 42451
+  Duration: 00:06:49.21, start: 0.000000, bitrate: 879 kb/s
+    Stream #0:0(eng): Audio: wmav2 (a[1][0][0] / 0x0161), 44100 Hz, 2 channels, fltp, 96 kb/s
+    Stream #0:1(eng): Video: wmv1 (WMV1 / 0x31564D57), yuv420p, 1364x768, 774 kb/s, SAR 1:1 DAR 341:192, 10 fps, 10 tbr, 1k tbn, 1k tbc
+[AV_LOG_WARNING] Warning: data is not aligned! This can lead to a speed loss
+[ERROR] overflow (1875 > 1864) in spectral RLE, ignoring
+[AV_LOG_PANIC] 
